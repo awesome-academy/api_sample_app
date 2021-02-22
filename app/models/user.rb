@@ -8,4 +8,6 @@ class User < ApplicationRecord
   validates :password, length: {minimum: 8}
 
   has_secure_password
+
+  scope :newest, ->{order created_at: :desc}
 end
