@@ -30,4 +30,9 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  sessions:
+    signed_in: "Signed in successfully"
+    signed_out: "Signed out successfully"
+    missing_params: "Missing parameter"
+    invalid: "Invalid email or password"
+    invalid_token: "Invalid token"

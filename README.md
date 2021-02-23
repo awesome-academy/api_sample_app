@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Sample app API
+- Create API basic with REST API
+- Serializing API Output with active_model_serializers
+- Authenticate Token with JWT
+- Unit test API with Rspec
+- Create API document with
 
-Things you may want to cover:
+* Ruby version 2.7.1
 
-* Ruby version
+* Database creation with mysql
 
-* System dependencies
+* Database initialization: rails db:seed
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* How to run the test suite: rspec spec/
