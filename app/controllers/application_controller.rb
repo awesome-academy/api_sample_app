@@ -1,4 +1,8 @@
 class ApplicationController < ActionController::API
+  resource_description do
+    api_version "1"
+  end
+
   before_action :authenticate_user!
 
   def authenticate_user!

@@ -5,7 +5,7 @@ Sample app API
 - Serializing API Output with active_model_serializers
 - Authenticate Token with JWT
 - Unit test API with Rspec
-- Create API document with
+- Create API document with apipie-rails
 
 * Ruby version 2.7.1
 
